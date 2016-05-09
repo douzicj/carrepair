@@ -191,6 +191,28 @@ ul.alert-dropdown {
     color: #3d8b3d;
 }
 
+
+
+.panel-blue {
+    border-color: #2fcad7;
+}
+
+.panel-blue > .panel-heading {
+    border-color: #2fcad7;
+    color: #fff;
+    background-color: #2fcad7;
+}
+
+.panel-blue > a {
+    color: #2fcad7;
+}
+
+.panel-blue > a:hover {
+    color: #1e9faa;
+}
+
+
+
 .panel-red {
     border-color: #d95043;
 }

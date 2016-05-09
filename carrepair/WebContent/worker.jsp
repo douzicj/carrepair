@@ -51,7 +51,7 @@
 		
 	</div>
 	<!-- end: Header -->
-	<jsp:include page="head.jsp"/>
+	<jsp:include page="adminhead.jsp"/>
 			<!-- end: Main Menu -->
 						
 		<!-- start: Content -->
@@ -61,8 +61,7 @@
 				<div class="col-lg-12">
 					<h3 class="page-header"><i class="fa fa-table"></i>维修工</h3>
 					<ol class="breadcrumb">
-						<li><i class="fa fa-home"></i><a href="index.jsp">首页</a></li>			  	
-						<li><i class="fa fa-briefcase"><a href="#">系统设置</a></i></li>
+						<li><i class="fa fa-home"></i><a href="admin.jsp">首页</a></li>
 						<li><i class="fa fa-table"></i>维修工管理</li>				
 					</ol>
 				</div>

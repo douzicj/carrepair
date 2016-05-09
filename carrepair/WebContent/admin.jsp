@@ -34,9 +34,9 @@
                     </div>
                 </div>
                 <div class="panel-body" >
-	                <div class="col-lg-3 col-md-6">
+	                <div class="col-lg-3 col-md-6" style="margin-left:200px">
 	                    <div class="panel panel-yellow">
-	                        <div class="panel-heading">
+	                        <div class="panel-heading" style="width:320px;height:100px">
 	                            <div class="row">
 	                                <div class="col-xs-3">
 	                                    <i class="fa fa-user fa-5x"></i>
@@ -47,7 +47,7 @@
 	                            </div>
 	                        </div>
 	                        <a href="staff.jsp">
-	                            <div class="panel-footer">
+	                            <div class="panel-footer" style="width:318px;">
 	                                <span class="pull-left">查看详细</span>
 	                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
 	                                <div class="clearfix"></div>
@@ -55,9 +55,9 @@
 	                        </a>
 	                    </div>
 	                </div>
-	                <div class="col-lg-3 col-md-6">
-                    <div class="panel panel-red">
-                        <div class="panel-heading">
+	                <div class="col-lg-3 col-md-6" style="margin-left:200px">
+                    <div class="panel panel-red" >
+                        <div class="panel-heading" style="width:320px;height:100px">
                             <div class="row">
                                 <div class="col-xs-3">
                                     <i class="fa fa-remove fa-5x"></i>
@@ -68,7 +68,7 @@
                             </div>
                         </div>
                         <a href="worker.jsp">
-                            <div class="panel-footer">
+                            <div class="panel-footer" style="width:318px;">
                                 <span class="pull-left">查看详细</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                                 <div class="clearfix"></div>
@@ -80,7 +80,7 @@
                 <!-- 人员管理结束 -->
                 
                 <!-- 部门管理 -->
-                <div class="container-fluid">
+                <div class="container-fluid" style="margin-top:40px">
                     <div class="col-lg-12">
                         
                         <ol class="breadcrumb">
@@ -91,9 +91,9 @@
                     </div>
                 </div>
                 <div class="panel-body">
-                	<div class="col-lg-3 col-md-6">
-	                    <div class="panel panel-primary">
-	                        <div class="panel-heading">
+                	<div class="col-lg-3 col-md-6" style="margin-left:200px">
+	                    <div class="panel panel-primary" >
+	                        <div class="panel-heading" style="width:320px;height:100px">
 	                            <div class="row">
 	                                <div class="col-xs-3">
 	                                    <i class="fa fa-edit fa-5x"></i>
@@ -104,7 +104,7 @@
 	                            </div>
 	                        </div>
 	                        <a href="repairproj.jsp">
-	                            <div class="panel-footer">
+	                            <div class="panel-footer" style="width:318px;">
 	                                <span class="pull-left">查看详细</span>
 	                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
 	                                <div class="clearfix"></div>
@@ -112,9 +112,9 @@
 	                        </a>
 	                    </div>
 	                </div>
-	                <div class="col-lg-3 col-md-6">
-	                    <div class="panel panel-green">
-	                        <div class="panel-heading">
+	                <div class="col-lg-3 col-md-6" style="margin-left:200px">
+	                  <div class="panel panel-green" >
+	                        <div class="panel-heading" style="width:320px;height:100px">
 	                            <div class="row">
 	                                <div class="col-xs-3">
 	                                    <i class="fa fa-male fa-5x"></i>
@@ -125,7 +125,7 @@
 	                            </div>
 	                        </div>
 	                        <a href="parts.jsp">
-	                            <div class="panel-footer">
+	                            <div class="panel-footer" style="width:318px;">
 	                                <span class="pull-left">查看详细</span>
 	                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
 	                                <div class="clearfix"></div>

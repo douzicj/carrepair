@@ -80,7 +80,6 @@
             <div class="container-fluid">
                 <!-- Page Heading -->
                     <div class="col-lg-12">
-                        
                         <ol class="breadcrumb">
                             <li>
                                 <i class="fa fa-fw fa-male"></i> 人员管理
@@ -89,20 +88,20 @@
                     </div>
                 </div>
                 <div class="panel-body" >
-	               <div class="col-lg-3 col-md-6" style="margin-left:150px">
-	                    <div class="panel panel-red" >
-	                        <div class="panel-heading" style="width:300px;height:100px">
+	                <div class="col-lg-3 col-md-6" style="margin-left:150px">
+	                    <div class="panel panel-yellow">
+	                        <div class="panel-heading" style="width:320px;height:100px">
 	                            <div class="row">
 	                                <div class="col-xs-3">
-	                                    <br> <i class="fa fa-male fa-5x"></i>
+	                                   <br> <i class="fa fa-user fa-5x"></i>
 	                                </div>
 	                                <div class="col-xs-9 text-right">
-	                                   <br>  <div class="huge">普通客户管理</div>
+	                                   <br> <div class="huge">普通用户管理</div>
 	                                </div>
 	                            </div>
 	                        </div>
 	                        <a href="publicuser.jsp">
-	                            <div class="panel-footer" style="width:300px;">
+	                            <div class="panel-footer" style="width:320px;">
 	                                <span class="pull-left">查看详细</span>
 	                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
 	                                <div class="clearfix"></div>
@@ -110,32 +109,32 @@
 	                        </a>
 	                    </div>
 	                </div>
-	                <div class="col-lg-3 col-md-6" style="margin-left:150px">
-	                    <div class="panel panel-red" >
-	                        <div class="panel-heading" style="width:300px;height:100px">
-	                            <div class="row">
-	                                <div class="col-xs-3">
-	                                    <br> <i class="fa fa-male fa-5x"></i>
-	                                </div>
-	                                <div class="col-xs-9 text-right">
-	                                    <br> <div class="huge">vip用户管理</div>
-	                                </div>
-	                            </div>
-	                        </div>
-	                        <a href="vipuser.jsp">
-	                            <div class="panel-footer" style="width:300px;">
-	                                <span class="pull-left">查看详细</span>
-	                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-	                                <div class="clearfix"></div>
-	                            </div>
-	                        </a>
-	                    </div>
-	                </div>
+	                <div class="col-lg-3 col-md-6" style="margin-left:200px">
+                    <div class="panel panel-red" >
+                        <div class="panel-heading" style="width:320px;height:100px">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <br><i class="fa fa-remove fa-5x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                   <br> <div class="huge">vip用户管理</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="vipuser.jsp">
+                            <div class="panel-footer" style="width:320px;">
+                                <span class="pull-left">查看详细</span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
                 </div>
                 <!-- 人员管理结束 -->
                 
                 <!-- 部门管理 -->
-                <div class="container-fluid">
+                <div class="container-fluid" style="margin-top:40px">
                     <div class="col-lg-12">
                         
                         <ol class="breadcrumb">
@@ -147,19 +146,19 @@
                 </div>
                 <div class="panel-body">
                 	<div class="col-lg-3 col-md-6" style="margin-left:150px">
-	                    <div class="panel panel-red" >
-	                        <div class="panel-heading" style="width:300px;height:100px">
+	                    <div class="panel panel-blue" >
+	                        <div class="panel-heading" style="width:320px;height:100px">
 	                            <div class="row">
 	                                <div class="col-xs-3">
-	                                    <br> <i class="fa fa-male fa-5x"></i>
+	                                   <br> <i class="fa fa-edit fa-5x"></i>
 	                                </div>
 	                                <div class="col-xs-9 text-right">
-	                                    <br> <div class="huge">订单查询</div>
+	                                    <br><div class="huge">订单查询</div>
 	                                </div>
 	                            </div>
 	                        </div>
 	                        <a href="ordersel.jsp">
-	                            <div class="panel-footer" style="width:300px;">
+	                            <div class="panel-footer" style="width:320px;">
 	                                <span class="pull-left">查看详细</span>
 	                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
 	                                <div class="clearfix"></div>
@@ -167,20 +166,20 @@
 	                        </a>
 	                    </div>
 	                </div>
-	                <div class="col-lg-3 col-md-6" style="margin-left:150px">
-	                    <div class="panel panel-red" >
-	                        <div class="panel-heading" style="width:300px;height:100px">
+	                <div class="col-lg-3 col-md-6" style="margin-left:200px">
+	                  <div class="panel panel-green" >
+	                        <div class="panel-heading" style="width:320px;height:100px">
 	                            <div class="row">
 	                                <div class="col-xs-3">
 	                                   <br> <i class="fa fa-male fa-5x"></i>
 	                                </div>
 	                                <div class="col-xs-9 text-right">
-	                                    <br><div class="huge">维修查询</div>
+	                                   <br> <div class="huge">维修查询</div>
 	                                </div>
 	                            </div>
 	                        </div>
-	                        <a href="repairsel.jsp">
-	                            <div class="panel-footer" style="width:300px;">
+	                        <a href="ordersel.jsp">
+	                            <div class="panel-footer" style="width:320px;">
 	                                <span class="pull-left">查看详细</span>
 	                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
 	                                <div class="clearfix"></div>
