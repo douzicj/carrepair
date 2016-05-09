@@ -33,11 +33,11 @@
 			<%-- <%
 			String path=application.getRealPath(request.getRequestURI());
 			String dir=new File(path).getParent();%> --%>
-			<!-- <ul class="nav navbar-nav navbar-actions navbar-left">
-				<li class="visible-md visible-lg"><a href=order.jsp# id="main-menu-toggle"><i class="fa fa-th-large"></i></a></li>
-				<li class="visible-xs visible-sm"><a href=order.jsp# id="sidebar-menu"><i class="fa fa-navicon"></i></a></li>			
+			<ul class="nav navbar-nav navbar-actions navbar-left">
+				<li class="visible-md visible-lg"><a href=staff.jsp# id="main-menu-toggle"><i class="fa fa-th-large"></i></a></li>
+				<li class="visible-xs visible-sm"><a href=staff.jsp# id="sidebar-menu"><i class="fa fa-navicon"></i></a></li>			
 			</ul>
-			 -->
+			
 			<form class="navbar-form navbar-left">
 				<button type="submit" class="fa fa-search"></button>
 				<input type="text" class="form-control" placeholder="Search...">
@@ -53,14 +53,16 @@
 		</div>
 		
 	</div>
-	   <div style="padding:20px">
+	<!-- end: Header -->
+	<jsp:include page="adminhead.jsp"/>
+		<!-- start: Content -->
+		<div class="main sidebar-minified">
 		
 			<div class="row">
 				<div class="col-lg-12">
 					<h3 class="page-header"><i class="fa fa-table"></i>业务员</h3>
 					<ol class="breadcrumb">
-						<li><i class="fa fa-home"></i><a href="admin.jsp">首页</a></li>	
-						<li><i class="fa fa-briefcase"><a href="#">系统设置</a></i></li>		  	
+						<li><i class="fa fa-home"></i><a href="admin.jsp">首页</a></li>		  	
 						<li><i class="fa fa-table"></i>业务员管理</li>				
 					</ol>
 				</div>
@@ -225,7 +227,14 @@
 				</div><!--/col-->
 			
 			</div><!--/row-->
-			
+			<div id="show" style="display:none;width:100%">
+			<!--/.row-->
+			</div>
+			<div id="show2" style="display:none;width:100%">
+			<div class="row"  >
+			    
+			<!--/.row-->
+			</div>
 			
 			
                     
